@@ -34,4 +34,4 @@ Given the finding and additional observations my recomendations are to combine c
 and Carry Out & Take away coupons were combined they represent 79.4% of all coupons. 55.42% of these have been visited these type of businesses at least once a month.
 
 ## Links
-The link to the jupyter notebook used, supporting these findings can be found [here](https://github.com/gourgopalnandi/UBC_ML_Mod_5.1.git)
+The link to the jupyter notebook used, supporting these findings can be found [here](https://github.com/gourgopalnandi/UBC_ML_Mod_5.1/blob/main/assignment_5_1_starter/prompt.ipynb)
