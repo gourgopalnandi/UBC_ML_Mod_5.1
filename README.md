@@ -1,4 +1,4 @@
-# BH-PCMLAI-Module_5
+# UBC_ML_Mod_5
 This project contains the Module 5 assignment and activities.
 
 # Overview
