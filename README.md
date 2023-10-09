@@ -1,13 +1,37 @@
-Context
+# BH-PCMLAI-Module_5
+This project contains the Module 5 assignment and activities.
 
-Imagine driving through town and a coupon is delivered to your cell phone for a restaraunt near where you are driving. Would you accept that coupon and take a short detour to the restaraunt? Would you accept the coupon but use it on a sunbsequent trip? Would you ignore the coupon entirely? What if the coupon was for a bar instead of a restaraunt? What about a coffee house? Would you accept a bar coupon with a minor passenger in the car? What about if it was just you and your partner in the car? Would weather impact the rate of acceptance? What about the time of day?
+# Overview
 
-Obviously, proximity to the business is a factor on whether the coupon is delivered to the driver or not, but what are the factors that determine whether a driver accepts the coupon once it is delivered to them? How would you determine whether a driver is likely to accept a coupon?
+To answer the question: How would you determine whether a driver is likely to accept a coupon? We have explored the driver's profile of thuse who recived a 'Bar' and 'Coffe House' coupons and accepted it. We looked at drivers who had passengers other then kid in the car, are going to bar or a coffe house at least once a month, at different age groups, marital status and income.
 
-Overview
+# summary of findings
 
-The goal of this project is to use what you know about visualizations and probability distributions to distinguish between customers who accepted a driving coupon versus those that did not.
+Our driver profile is a person who is between the ages of 25 and 30 years old. They most likely visiting a bar or a coffe house, less then 3 times a month and not widowed. They are not working in farming, fishing, or forestry and respect the law.
 
-Data
+In total our driver profile represent only 1.57 % of total drivers who accepted the bar coupon and 4.55 % of total drivers who accepted the Coffee House coupon.
 
-This data comes to us from the UCI Machine Learning repository and was collected via a survey on Amazon Mechanical Turk. The survey describes different driving scenarios including the destination, current time, weather, passenger, etc., and then ask the person whether he will accept the coupon if he is the driver. Answers that the user will drive there ‘right away’ or ‘later before the coupon expires’ are labeled as ‘Y = 1’ and answers ‘no, I do not want the coupon’ are labeled as ‘Y = 0’. There are five different types of coupons -- less expensive restaurants (under $20), coffee houses, carry out & take away, bar, and more expensive restaurants ($20 - $50).
+The acceptance of the Bar coupon is less then half of the Coffee House coupon.
+
+In both cases more female have rejected the coupons then man.
+
+Most of those who accepted a coupon where either Single or Married.
+
+Students and Unemployed people are the largest groups that accepted the coupon.
+
+From those who accepted the 'Bar' coupon, the group with 'Some Highschool Education' dominated.
+
+#### In additional exploration on the Bar coupon I asked
+
+* Is it likely that they go to more upscale restaurant, like 20-50?
+- Does the income change the profile?
++ Does gender have an impact if we ignore the income?
+
+If we drop the income qulifications, then the number of coupon accepted by a diver increases segnificantly.
+
+## Reccomendations
+Given the finding and additional observations my recomendations are to combine coupons, for example if the Coffee House, Restaurant (<20) 
+and Carry Out & Take away coupons were combined they represent 79.4% of all coupons. 55.42% of these have been visited these type of businesses at least once a month.
+
+## Links
+The link to the jupyter notebook used, supporting these findings can be found [here](https://github.com/gourgopalnandi/UBC_ML_Mod_5.1.git)
